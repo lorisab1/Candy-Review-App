@@ -20,6 +20,7 @@
 		EB1D30C52AF1C30F006DEED6 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30C42AF1C30F006DEED6 /* thirdViewController.swift */; };
 		EB1D30C72AF1C320006DEED6 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30C62AF1C320006DEED6 /* fourthViewController.swift */; };
 		EB1D30C92AF1C32D006DEED6 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30C82AF1C32D006DEED6 /* fifthViewController.swift */; };
+		EB1D30CB2AF1E3D6006DEED6 /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		EB1D30C42AF1C30F006DEED6 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		EB1D30C62AF1C320006DEED6 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 		EB1D30C82AF1C32D006DEED6 /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
+		EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		EB1D30862AF1BFA5006DEED6 = {
 			isa = PBXGroup;
 			children = (
+				EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */,
 				EB1D30912AF1BFA5006DEED6 /* Candy Review App */,
 				EB1D30A82AF1BFA6006DEED6 /* Candy Review AppTests */,
 				EB1D30B22AF1BFA6006DEED6 /* Candy Review AppUITests */,
@@ -273,6 +276,7 @@
 				EB1D30C32AF1C2FC006DEED6 /* secondViewController.swift in Sources */,
 				EB1D30972AF1BFA5006DEED6 /* ViewController.swift in Sources */,
 				EB1D30C72AF1C320006DEED6 /* fourthViewController.swift in Sources */,
+				EB1D30CB2AF1E3D6006DEED6 /* sixthViewController.swift in Sources */,
 				EB1D30C52AF1C30F006DEED6 /* thirdViewController.swift in Sources */,
 				EB1D30932AF1BFA5006DEED6 /* AppDelegate.swift in Sources */,
 				EB1D30952AF1BFA5006DEED6 /* SceneDelegate.swift in Sources */,
