@@ -157,6 +157,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
                                     <action selector="learnMoreButton:" destination="i2o-RY-vfX" eventType="touchUpInside" id="nmM-05-M5Z"/>
+                                    <segue destination="bbF-mW-FXW" kind="show" id="mCN-g6-67e"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="M&amp;Ms" translatesAutoresizingMaskIntoConstraints="NO" id="FsL-Vw-qxo">
@@ -185,7 +186,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdk-ej-I4y">
-                                <rect key="frame" x="82" y="126" width="229" height="68"/>
+                                <rect key="frame" x="82" y="166" width="229" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
@@ -196,7 +197,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzQ-W6-MxA">
-                                <rect key="frame" x="63" y="483" width="267" height="248"/>
+                                <rect key="frame" x="63" y="445" width="267" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -206,6 +207,7 @@
                         <viewLayoutGuide key="safeArea" id="W6k-ah-Igo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="vCD-Ig-0OM"/>
                     <connections>
                         <outlet property="descriptionLabel" destination="BzQ-W6-MxA" id="v5K-bz-kKf"/>
                         <outlet property="headlineLabel" destination="tdk-ej-I4y" id="RuG-ws-rpQ"/>

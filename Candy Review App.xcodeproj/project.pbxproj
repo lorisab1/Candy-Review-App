@@ -89,7 +89,6 @@
 		EB1D30862AF1BFA5006DEED6 = {
 			isa = PBXGroup;
 			children = (
-				EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */,
 				EB1D30912AF1BFA5006DEED6 /* Candy Review App */,
 				EB1D30A82AF1BFA6006DEED6 /* Candy Review AppTests */,
 				EB1D30B22AF1BFA6006DEED6 /* Candy Review AppUITests */,
@@ -114,6 +113,7 @@
 				EB1D30942AF1BFA5006DEED6 /* SceneDelegate.swift */,
 				EB1D30962AF1BFA5006DEED6 /* ViewController.swift */,
 				EB1D30982AF1BFA5006DEED6 /* Main.storyboard */,
+				EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */,
 				EB1D30C82AF1C32D006DEED6 /* fifthViewController.swift */,
 				EB1D30C62AF1C320006DEED6 /* fourthViewController.swift */,
 				EB1D30C42AF1C30F006DEED6 /* thirdViewController.swift */,
