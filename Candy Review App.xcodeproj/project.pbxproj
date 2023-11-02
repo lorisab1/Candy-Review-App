@@ -21,6 +21,8 @@
 		EB1D30C72AF1C320006DEED6 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30C62AF1C320006DEED6 /* fourthViewController.swift */; };
 		EB1D30C92AF1C32D006DEED6 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30C82AF1C32D006DEED6 /* fifthViewController.swift */; };
 		EB1D30CB2AF1E3D6006DEED6 /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */; };
+		EB8402B92AF45E1E00AFB9E7 /* secondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8402B82AF45E1E00AFB9E7 /* secondDetailViewController.swift */; };
+		EB8402BB2AF45ED000AFB9E7 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB8402BA2AF45ED000AFB9E7 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		EB1D30C62AF1C320006DEED6 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 		EB1D30C82AF1C32D006DEED6 /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 		EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
+		EB8402B82AF45E1E00AFB9E7 /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
+		EB8402BA2AF45ED000AFB9E7 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 				EB1D30942AF1BFA5006DEED6 /* SceneDelegate.swift */,
 				EB1D30962AF1BFA5006DEED6 /* ViewController.swift */,
 				EB1D30982AF1BFA5006DEED6 /* Main.storyboard */,
+				EB8402BA2AF45ED000AFB9E7 /* Property List.plist */,
+				EB8402B82AF45E1E00AFB9E7 /* secondDetailViewController.swift */,
 				EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */,
 				EB1D30C82AF1C32D006DEED6 /* fifthViewController.swift */,
 				EB1D30C62AF1C320006DEED6 /* fourthViewController.swift */,
@@ -248,6 +254,7 @@
 			files = (
 				EB1D309F2AF1BFA5006DEED6 /* LaunchScreen.storyboard in Resources */,
 				EB1D309C2AF1BFA5006DEED6 /* Assets.xcassets in Resources */,
+				EB8402BB2AF45ED000AFB9E7 /* Property List.plist in Resources */,
 				EB1D309A2AF1BFA5006DEED6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +286,7 @@
 				EB1D30CB2AF1E3D6006DEED6 /* sixthViewController.swift in Sources */,
 				EB1D30C52AF1C30F006DEED6 /* thirdViewController.swift in Sources */,
 				EB1D30932AF1BFA5006DEED6 /* AppDelegate.swift in Sources */,
+				EB8402B92AF45E1E00AFB9E7 /* secondDetailViewController.swift in Sources */,
 				EB1D30952AF1BFA5006DEED6 /* SceneDelegate.swift in Sources */,
 				EB1D30C92AF1C32D006DEED6 /* fifthViewController.swift in Sources */,
 			);
