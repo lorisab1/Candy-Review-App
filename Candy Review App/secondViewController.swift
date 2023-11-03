@@ -11,7 +11,7 @@ class secondViewController: UIViewController, UITableViewDataSource, UITableView
     
     @IBOutlet weak var tableView: UITableView!
     
-    var chocolateCandyArray = ["Reese's Cups", "Twix", "M&Ms", "Kit Kat"]
+    var chocolateCandyArray = ["Kit Kat", "M&Ms", "Reese's Cups", "Twix"]
     
     var chocolateRatingsArray = ["⭐️⭐️⭐️⭐️⭐️","⭐️⭐️⭐️⭐️⭐️", "⭐️⭐️⭐️⭐️⭐️", "⭐️⭐️⭐️⭐️⭐️"]
     
