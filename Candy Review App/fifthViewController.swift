@@ -13,8 +13,12 @@ class fifthViewController: UIViewController {
     
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        imageView.image = UIImage(named: "pfp.jpg")
         
         headlineLabel.text = "Candy Reviewer: Lorisa Bulosan"
         
