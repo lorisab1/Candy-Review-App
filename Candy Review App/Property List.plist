@@ -2,9 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CategoryThreeImages</key>
+	<array>
+		<string>SourPatchKids</string>
+		<string>SourPunchBites</string>
+		<string>SourSkittles</string>
+		<string>SweetTartMiniChewy</string>
+	</array>
+	<key>CategoryTwoImages</key>
+	<array>
+		<string>BlackForestGummyBears</string>
+		<string>HariboFizzyCola</string>
+		<string>HariboGoldbears</string>
+		<string>Welch&apos;sFruitSnacks</string>
+	</array>
 	<key>CategoryOneImages</key>
 	<array>
 		<string>Kit Kat</string>
+		<string>M&amp;Ms</string>
+		<string>Reese&apos;s Cups</string>
+		<string>Twix</string>
 	</array>
 </dict>
 </plist>

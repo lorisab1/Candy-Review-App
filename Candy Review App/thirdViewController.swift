@@ -27,14 +27,28 @@ class thirdViewController: UIViewController, UITableViewDataSource, UITableViewD
         return cell
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-       
-        
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
+    var categoryTwoImagesData = [String]()
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
 
+        let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        categoryTwoImagesData = dict!.object(forKey: "CategoryTwoImages") as! [String]
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let s1 = segue.destination as! thirdDetailViewController
+        let imageIndex = tableView.indexPathForSelectedRow?.row
+        s1.imagePass = categoryTwoImagesData[imageIndex!]
+    }
    
 
 }

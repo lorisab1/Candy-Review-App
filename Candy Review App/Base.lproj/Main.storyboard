@@ -44,6 +44,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HR2-XD-wGL" kind="presentation" id="0ln-xn-UiC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -63,6 +66,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vqC-db-E1L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="913.74045801526711" y="498.59154929577466"/>
+        </scene>
+        <!--Fourth Detail View Controller-->
+        <scene sceneID="9Ls-mx-Eti">
+            <objects>
+                <viewController id="HR2-XD-wGL" customClass="fourthDetailViewController" customModule="Candy_Review_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rhc-ro-CJE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uXS-G8-3Zv">
+                                <rect key="frame" x="76" y="192" width="240" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4hb-7k-Fm0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="uXS-G8-3Zv" id="yjc-rP-p1S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Nh-zi-keP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1671" y="499"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="tfr-f4-p2k">
@@ -100,6 +127,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="drZ-Pg-SK4" kind="presentation" id="2Xw-p1-3JB"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -118,7 +148,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DY9-Oj-o8z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="913.74045801526711" y="-150"/>
+            <point key="canvasLocation" x="914" y="-150"/>
+        </scene>
+        <!--Third Detail View Controller-->
+        <scene sceneID="CGu-hx-P5C">
+            <objects>
+                <viewController id="drZ-Pg-SK4" customClass="thirdDetailViewController" customModule="Candy_Review_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3WC-O0-GO6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RR6-vc-uO5">
+                                <rect key="frame" x="76" y="192" width="240" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1kA-JY-kFd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="RR6-vc-uO5" id="ZOW-Ns-sHp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zdo-Uy-vLp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1671" y="-150"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="lvg-jY-GrD">
@@ -157,7 +211,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="UiC-V7-qrC" kind="show" identifier="mySegue" id="11L-4x-8po"/>
+                                            <segue destination="UiC-V7-qrC" kind="presentation" identifier="mySegue" id="11L-4x-8po"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -184,11 +238,11 @@
             <objects>
                 <viewController id="UiC-V7-qrC" customClass="secondDetailViewController" customModule="Candy_Review_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Gn-Pb-aBs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6t7-HV-J0y">
-                                <rect key="frame" x="76" y="192" width="240" height="185"/>
+                                <rect key="frame" x="76" y="192" width="240" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -266,7 +320,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
                                     <action selector="learnMoreButton:" destination="i2o-RY-vfX" eventType="touchUpInside" id="nmM-05-M5Z"/>
-                                    <segue destination="bbF-mW-FXW" kind="show" id="mCN-g6-67e"/>
+                                    <segue destination="bbF-mW-FXW" kind="presentation" id="mCN-g6-67e"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FsL-Vw-qxo">
@@ -293,7 +347,7 @@
             <objects>
                 <viewController id="bbF-mW-FXW" customClass="sixthViewController" customModule="Candy_Review_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yVD-t3-lVK">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdk-ej-I4y">

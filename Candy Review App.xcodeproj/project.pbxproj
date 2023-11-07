@@ -23,6 +23,8 @@
 		EB1D30CB2AF1E3D6006DEED6 /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */; };
 		EB8402B92AF45E1E00AFB9E7 /* secondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8402B82AF45E1E00AFB9E7 /* secondDetailViewController.swift */; };
 		EB8402BB2AF45ED000AFB9E7 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB8402BA2AF45ED000AFB9E7 /* Property List.plist */; };
+		EB8BF0412AFAF8AF0059DABC /* thirdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BF0402AFAF8AF0059DABC /* thirdDetailViewController.swift */; };
+		EB8BF0432AFAF8CE0059DABC /* fourthDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BF0422AFAF8CE0059DABC /* fourthDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
 		EB8402B82AF45E1E00AFB9E7 /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
 		EB8402BA2AF45ED000AFB9E7 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		EB8BF0402AFAF8AF0059DABC /* thirdDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdDetailViewController.swift; sourceTree = "<group>"; };
+		EB8BF0422AFAF8CE0059DABC /* fourthDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				EB1D30942AF1BFA5006DEED6 /* SceneDelegate.swift */,
 				EB1D30962AF1BFA5006DEED6 /* ViewController.swift */,
 				EB1D30982AF1BFA5006DEED6 /* Main.storyboard */,
+				EB8BF0422AFAF8CE0059DABC /* fourthDetailViewController.swift */,
+				EB8BF0402AFAF8AF0059DABC /* thirdDetailViewController.swift */,
 				EB8402BA2AF45ED000AFB9E7 /* Property List.plist */,
 				EB8402B82AF45E1E00AFB9E7 /* secondDetailViewController.swift */,
 				EB1D30CA2AF1E3D6006DEED6 /* sixthViewController.swift */,
@@ -283,6 +289,8 @@
 				EB1D30C32AF1C2FC006DEED6 /* secondViewController.swift in Sources */,
 				EB1D30972AF1BFA5006DEED6 /* ViewController.swift in Sources */,
 				EB1D30C72AF1C320006DEED6 /* fourthViewController.swift in Sources */,
+				EB8BF0432AFAF8CE0059DABC /* fourthDetailViewController.swift in Sources */,
+				EB8BF0412AFAF8AF0059DABC /* thirdDetailViewController.swift in Sources */,
 				EB1D30CB2AF1E3D6006DEED6 /* sixthViewController.swift in Sources */,
 				EB1D30C52AF1C30F006DEED6 /* thirdViewController.swift in Sources */,
 				EB1D30932AF1BFA5006DEED6 /* AppDelegate.swift in Sources */,
